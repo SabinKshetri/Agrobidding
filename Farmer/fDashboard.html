@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro-Bidding</title>
+    <link rel="stylesheet" href="../css/farmer.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+          <ul class="menu">
+            <li class="menu-item active" onclick="changeTab(event, 'dashboard')">Dashboard</li>
+            <li class="menu-item" onclick="changeTab(event, 'analytics')">Analytics</li>
+            <li class="menu-item" onclick="changeTab(event, 'settings')">Settings</li>
+          </ul>
+        </div>
+        <div class="content">
+          <div id="dashboard" class="tab-content">
+            <h2>Dashboard</h2>
+            <p>Welcome to the dashboard!</p>
+          </div>
+          <div id="analytics" class="tab-content" style="display: none;">
+            <h2>Analytics</h2>
+            <p>Analytics data goes here.</p>
+          </div>
+          <div id="settings" class="tab-content" style="display: none;">
+            <h2>Settings</h2>
+            <p>Update your settings here.</p>
+          </div>
+        </div>
+      </div>
+<script src="fdashboard.js"></script>      
+</body>
+</html>

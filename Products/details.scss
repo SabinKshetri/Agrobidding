@@ -1,0 +1,94 @@
+.card {
+    margin-left: 420px;
+    width: 430px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    
+        &:hover{
+            box-shadow: 0 2px 4px rgba(0, 0, 0.1); 
+        }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    &-content {
+      padding: 20px;
+  
+      h2 {
+        margin-top: 0;
+      }
+  
+      p {
+        margin-bottom: 20px;
+      }
+  
+      & .btn {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #555;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+  
+        &:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+
+  .card-list{
+        margin-top: 15px;
+        width:200px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        
+            &:hover{
+                box-shadow: 0 2px 4px rgba(0, 0, 0.1); 
+            }
+      
+        img {
+          width: 100%;
+          height: auto;
+        }
+      
+        &-content {
+          padding: 20px;
+      
+          h2 {
+            margin-top: 0;
+          }
+      
+          p {
+            margin-bottom: 20px;
+          }
+      
+          & .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #555;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+      
+            &:hover {
+              background-color: #333;
+              color: #fff;
+            }
+          }
+        }
+      }
+      .grid-container{
+        margin-bottom: 60px;
+        grid-gap: 17px;
+        margin-top: 59px;
+        display: grid;
+        grid-template-columns: repeat(4, 315px);
+    }
+  
