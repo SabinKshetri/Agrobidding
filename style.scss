@@ -1,155 +1,221 @@
-$brand:#B2FD98;
+$brand: #B2FD98;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
-   min-height: 100vh;
+
+body {
+
+    min-height: 100vh;
 }
+
 /* styling of navigation start */
-.container{
+.container {
     width: 1200px;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: space-between;
 }
-.header{
+
+.header {
     background: $brand;
     line-height: 3.12rem;
 }
 
-.nav{
-    
-    ul{
-        
+.nav {
+
+    ul {
+
         list-style: none;
-        li{
+
+        li {
             display: inline;
-            a{
+
+            a {
                 color: #000;
                 padding: 0px 15px;
                 text-decoration: none;
                 text-align: center;
                 font-weight: 500px;
-                &:hover{
+
+                &:hover {
                     color: red;
                 }
             }
         }
     }
 }
-.btn{
+
+.btn {
     position: relative;
 }
 
-.sub-menu{
-     display:none;
+.sub-menu {
+    display: none;
     position: absolute;
     background: $brand;
     border-radius: 10px;
-    border:2px solid #fff;
+    border: 2px solid #fff;
     z-index: 9999999px;
 
-    
-    ul{
+
+    ul {
         list-style: none;
-        li{
-            a{
+
+        li {
+            a {
                 text-decoration: none;
-                color:#000;
+                color: #000;
                 padding: 10px;
-          
+
                 text-align: center;
             }
+        }
+    }
+
+}
+
+/* Navigation ends here */
+/* Background image reamining work */
+.backgroun_image {
+    background-image: url(./img/grad.jpg);
+    height: 100vh;
+    width: 100vw;
+    background: rgb(29, 226, 105);
+}/* 
+styling of aboutus section */
+.about-content{
+    margin-top: 40px;
+    gap: 50px;
+    display: flex;
+    justify-content:space-between;
+    .left-container{
+        img{
+            opacity: 0.2;
+            position:absolute;
+        }
+        p{
+            font-size: 17px;
+            overflow: hidden;
+            text-align: justify;
+            text-justify: inter-word;
+            z-index: 99;
+            position: relative;
         }
     }
     
 }
 
-/* Navigation ends here */
-/* Background image reamining work */
-.backgroun_image{
-    background-image: url(./img/grad.jpg);
-    height: 100vh;
-    width: 100vw;
-    background: red;
-}
 
- 
+
+/* about section ends */
 
 
 
-
-
-.contact{
-    ul{
+.contact {
+    ul {
         list-style: none;
-        li{
-            a{
+
+        li {
+            a {
                 text-decoration: none;
                 padding: 5px;
             }
         }
     }
 }
+
 /* contact form styling */
+.contact-form{
+    background: #9f9e9e;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 20px;
-    }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
 
-    .contact-form {
-      background-color: #f5f5f5;
-      border-radius: 4px;
-      padding: 20px;
-    }
+.contact-form {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 20px;
+}
 
-    .contact-form h2 {
-      margin-top: 0;
-    }
+.contact-form h2 {
+    margin-top: 0;
+}
 
-    .contact-form input[type="text"],
-    .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-    .contact-form input[type="submit"] {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-    .contact-form input[type="submit"]:hover {
-      background-color: #555;
+.contact-form input[type="submit"]:hover {
+    background-color: #e11515;
+}
+
+/* social icon styling */
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+        list-style: none;
+    
+
+        li {
+            display: inline;
+            a{
+                background: #000;
+                padding: 8px;
+                border-radius: 50%;
+                color: #fff;
+                gap: 20px;
+            }
+        }
     }
-  
+}
+
 /* footer styling */
-.footer{
+.footer {
     background: $brand;
     line-height: 3.12rem;
     text-align: center;
-    
-    
+
+
+
 }
+
 /* end of footer styling */
-
-
